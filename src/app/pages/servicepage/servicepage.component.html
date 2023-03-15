@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+ <div style="background-image: url(../../../assets/img/footer.png); background-color:#2124B1 ;">
+ <div class="container" >
+
+  <h1 style="display: flex; text-align: center;justify-content: center; color:white ; margin: 1%; text-transform: uppercase; padding-top: 2%;">These are the services providing from us!!!</h1>
+</div>
+
+<div class="container" >
+    <div class="row"  >
+        <div class="col-lg-4"  *ngFor="let item of digitaldb" >
+<div class="card" style="width: 18rem; height: 30rem; margin-top: 5%; margin-left: 5%;">
+<img src="{{item.img}}" class="card-img-top" alt="..." >
+    <div class="card-body" style="background: transparent;">    
+      <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text">{{item.para}}</p>
+      <a (click)="gotopage(item.id)" class="btn btn-primary" style="color: white">View Package</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="background-color:#2124B1;  padding-top: 5%; padding-bottom: 5%; background-image: url(../../../assets/img/footer.png ), url(../../../assets/img/bt.png) ;  background-repeat: no-repeat; background-position: bottom;background-size:  1520px 250px;;">
+  <form class="form" >
+      
+      <h2 style="padding-left: 25%;">CONTACT US</h2>
+      <p type="Name:"><input placeholder="Write your name here.."></p>
+      <p type="Email:"><input placeholder="Your Email id.."></p>
+      <p type="Contact Number:"><input placeholder="Your contact number.."></p>
+      <p type="Message:"><input placeholder="What kind of Services you want.."></p>
+      <button>Send Message</button>
+      <div class="con"> 
+         <span class="fa "></span>  
+         <span class="fa fa-envelope-o"></span>We will Contact you soon...
+       </div> 
+    </form>
+  </div>
+
+  

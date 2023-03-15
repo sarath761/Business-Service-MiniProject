@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bservice-67ba2": {
+      "hosting": {
+        "Bservice": [
+          "bservice-67ba2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bservice-67ba2"
+  }
+}
