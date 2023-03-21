@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
@@ -17,6 +17,7 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { LoginComponent } from './pages/login/login.component';
 import { SigninComponent } from './pages/signin/signin.component';
+import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 
 
 @NgModule({
@@ -39,9 +40,12 @@ import { SigninComponent } from './pages/signin/signin.component';
     AppRoutingModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
+    FormsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    {provide: FIREBASE_OPTIONS,useValue: environment.firebase}],
+      bootstrap: [AppComponent]
+
 })
 export class AppModule { }

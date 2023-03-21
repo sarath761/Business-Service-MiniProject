@@ -14,6 +14,10 @@ const routes: Routes = [
   
 
   {
+    path:'signin',component:SigninComponent
+    },
+
+  {
   path:'',component:LoginComponent
   },
   {
