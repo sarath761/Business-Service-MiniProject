@@ -18,6 +18,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { LoginComponent } from './pages/login/login.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+import { FormComponent } from './pages/form/form.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
     SinglepageComponent,
     LoginComponent,
     SigninComponent,
+    FormComponent,
     
   ],
   imports: [

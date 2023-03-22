@@ -1,6 +1,13 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { Router } from '@angular/router';
+import { Observable} from 'rxjs';
+import { addDoc,collection, collectionData, Firestore,getDoc,getFirestore,onSnapshot } from '@angular/fire/firestore';
+import { doc, setDoc } from 'firebase/firestore';
+import { getAuth } from '@firebase/auth';
+import { Auth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from '@angular/fire/auth';
+import { servicedb } from 'src/assets/data/data';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -38,4 +45,11 @@ export class AuthService {
         })
         }
     
+        insertData(docRef:any,data:any){
+          addDoc(docRef,data)
+          .then(()=>{alert("sucessfull")})
+        
+          .catch((err) => alert(err))
+        
+        }
 }

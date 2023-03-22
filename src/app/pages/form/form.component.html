@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+
+  <div class="container" style="display: flex; margin-left: 13%; margin-top: 5%;">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Tiruvalla, NP12</div>
+          <div class="text-two">Kerala 06</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">bservice@gmail.com</div>
+          <div class="text-two">b.service@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Fill the below form,We will contact you soon and according to your need we will work on it.</p>
+      <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Type Which Package you need(Normal/Popular)" name="package" [(ngModel)]="package">
+          </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name" name="name1" [(ngModel)]="name1" >
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email" name="email1" [(ngModel)]="email1">
+        </div>
+        <div class="input-box message-box">
+            <input type="text" placeholder="If you have any message" name="messege1" [(ngModel)]="messege1">
+
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" (click)="submit()" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+

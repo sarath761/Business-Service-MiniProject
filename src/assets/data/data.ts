@@ -3,7 +3,20 @@ export const servicedb=[
     {   "id":"1",
         "img":'https://www.wordstream.com/wp-content/uploads/2022/08/what-does-seo-stand-for.png',
         "title":"SEO Optimization",
-        "para":"SEO is about making improvements to your websites structure and content so its pages can be discovered by people searching for what ."
+        "para":"SEO is about making improvements to your websites structure and content so its pages can be discovered by people searching for what .",
+        "n1":"Upto 25 Keywords",
+        "n2":"Upto 20 URL Optimize",
+        "n3":"50% Top 10 Guaranteed",
+        "n4":"6 Month Best Result Duration",
+        "n5":"In-depth Site Analysis",
+        
+        "p1":"Upto 50 Keywords",
+        "p2":"Upto 40 URL Optimize",
+        "p3":"50% Top 15 Guaranteed",
+        "p4":"1 Year Best Result Duration",
+        "p5":"In-depth Site Analysis",
+
+
 },
 
 {   "id":"2",

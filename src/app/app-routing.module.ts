@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutpageComponent } from './pages/aboutpage/aboutpage.component';
 import { ContactpageComponent } from './pages/contactpage/contactpage.component';
+import { FormComponent } from './pages/form/form.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ProjectpageComponent } from './pages/projectpage/projectpage.component';
@@ -39,7 +40,10 @@ const routes: Routes = [
 
   {
     path:'singlepage',component:SinglepageComponent
-  }
+  },
+  {
+    path:'formpage',component:FormComponent
+    }
 ];
 
 @NgModule({

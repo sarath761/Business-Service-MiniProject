@@ -17,8 +17,6 @@ ngOnInit()
   this.data=ar.filter(e=>e.id===id);
 
 }
-buttonclick()
-{
-  alert("Not linked with database")
-}
+
+
 }
