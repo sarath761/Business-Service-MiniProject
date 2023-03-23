@@ -16,36 +16,114 @@ export const servicedb=[
         "p4":"1 Year Best Result Duration",
         "p5":"In-depth Site Analysis",
 
+        "pimg":"https://themes.ishyoboy.com/no8/wp/wp-content/uploads/2014/11/products_low_polygon21.jpg",
+        "ptitle":"Graphic Product Design ",
+        "pdis":" Common uses of graphic design include identity (logos and branding), publications (magazines, newspapers and books), print advertisements, posters, billboards, website graphics and elements,",
 
 },
 
 {   "id":"2",
     "img":'https://cdn.mos.cms.futurecdn.net/6J8riT32EkrhW9NYfE5oyK-1200-80.jpg.webp',
     "title":"Web Design",
-    "para":"Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website very attractive and efficient one. "
+    "para":"Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website very attractive and efficient one. ",
+        "n1":"Normal Design",
+        "n2":"Upto 20 URL Optimize",
+        "n3":"50% Top 10 Guaranteed",
+        "n4":"6 Month Service",
+        "n5":"Not a theme based",
+        
+        "pimg":"https://design.lsu.edu/wp-content/uploads/2014/07/SamVarela_BRProudBranding.jpg",
+        "ptitle":"Logo in T-shirt ",
+        "pdis":" Custom screen printed logo t-shirts are great for sports teams, company staff uniforms, sorority/fraternity events, and even family reunions. CustomInk makes it both easy and fun ",
+
+        "p1":"Excellent Design",
+        "p2":"Upto 40 URL Optimize",
+        "p3":"50% Top 15 Guaranteed",
+        "p4":"1 Year Best Service",
+        "p5":"Theme based",
 },
 
 {       "id":"3",
         "img":'https://images.yourstory.com/cs/1/175078f09bd211ec9bed114c16bb4a2d/socialmediamarketingstrategy-1650293336008.jpg?w=752&fm=auto&ar=2:1&mode=crop&crop=faces',
         "title":"Social Media Marketing",
-        "para":"Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers. People discover, learn about, follow, and shop from brands on social media like Instagram,Facebook,Whatsapp,twitter"
+        "para":"Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers. People discover, learn about, follow, and shop from brands on social media like Instagram,Facebook,Whatsapp,twitter",
+        "n1":"Facebook Only",
+        "n2":"Not Uptodate",
+        "n3":"No Share Analysis",
+        "n4":"6 Month Best Service",
+        "n5":"No In-depth Site Analysis",
+        
+        "pimg":"https://www.zoho.com/inventory/images/common-dashboard-1x.png",
+        "ptitle":"zoho all in one app",
+        "pdis":" We provide cloud software and applications for businesses, including associated offline and mobile applications (Service or Services). You may use the Services for your personal and business.",
+
+        "p1":"All Platforms",
+        "p2":"Uptodate Service",
+        "p3":"Share Analysis",
+        "p4":"1 Year Best Service",
+        "p5":"In-depth Site Analysis",
     },
 
 {       "id":"4",
         "img":'https://www.sender.net/wp-content/uploads/2022/02/Email-Campaigns-smaller-1024x658.png',
         "title":"Email Marketing",
-        "para":"The use of email within your marketing efforts to promote a business’s products and services, as well as incentivize customer loyalty. Email marketing is a form of marketing ."
+        "para":"The use of email within your marketing efforts to promote a business’s products and services, as well as incentivize customer loyalty. Email marketing is a form of marketing .",
+        "n1":"Upto 1000 emails",
+        "n2":"Upto 20 URL Optimize",
+        "n3":"50% Top 10 Guaranteed",
+        "n4":"6 Month Best Result Duration",
+        "n5":"In-depth Site Analysis",
+        
+        "pimg":"https://cdn.dribbble.com/users/1889975/screenshots/16587851/media/5bdbab00724ceef17adaf26508aeead8.png",
+        "ptitle":"RankPro SEO Website",
+        "pdis":"RankPro is a minimal yet eye-catching, modern, and powerful template pack for WordPress. It has been designed and developed especially for SEO agencies in a way that helps them to skyrocket,  ",
+
+        "p1":"Upto 10000 Keywords",
+        "p2":"Upto 40 URL Optimize",
+        "p3":"50% Top 15 Guaranteed",
+        "p4":"1 Year Best Result Duration",
+        "p5":"In-depth Site Analysis",
     }, 
 
 {       "id":"5",
         "img":'https://www.claritusconsulting.com/wp-content/uploads/2022/04/mobile-app-development.png',
         "title":"App Development",
-        "para":"Mobile applications have become big business in recent years; in fact, statistics show that 21 percent of millennials open an app more than 50 times per day. While there is no denying."
+        "para":"Mobile applications have become big business in recent years; in fact, statistics show that 21 percent of millennials open an app more than 50 times per day. While there is no denying.",
+        "n1":"Android only",
+        "n2":"Less Activities",
+        "n3":"50% Top 10 Guaranteed",
+        "n4":"6 Month Best Result Duration",
+        "n5":"In-depth Site Analysis",
+        
+        "pimg":"https://www.wordstream.com/wp-content/uploads/2022/02/best-social-media-marketing-platforms-compared-chart-720.png ",
+        "ptitle":" social-media-marketin project ",
+        "pdis":"Social media marketing project done for a company.  ",
+
+        "p1":"Both Android and ios",
+        "p2":"More activities",
+        "p3":"50% Top 15 Guaranteed",
+        "p4":"1 Year Best Result Duration",
+        "p5":"In-depth Site Analysis",
     },
         
 {           "id":"6",
             "img":'https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2020/02/the-best-applications-to-learn-as-a-graphics-designer.jpg?w=1200&ssl=1',
             "title":"Graphics Design",
-            "para":"Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography to meet users."
-    },
+            "para":"Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography to meet users.",
+            "n1":"No dail designs",
+            "n2":"Limited format",
+            "n3":"Normal Logo",
+            "n4":"6 Month Best Result Duration",
+            "n5":"In-depth Site Analysis",
+            
+            "pimg":"https://graphicsfamily.com/wp-content/uploads/edd/2021/06/Free-Photoshop-Social-Media-Poster-Design-Template-1536x864.jpg",
+            "ptitle":"Social Media Poster Design",
+            "pdis":"Delicious food menu design project done for the company named kazi kitchen which is located in thiruvalla near nippon toyota thiruvalla. ",
+
+            "p1":"Every day 1 poster",
+            "p2":"All formate",
+            "p3":"Professional Logo",
+            "p4":"1 Year Best Result Duration",
+            "p5":"In-depth Site Analysis",
+        },
 ]

@@ -28,8 +28,26 @@ export class FormComponent {
       messege1:this.messege1
     }
 
+    if(this.package == ''){
+      alert('please enter package');
+      return;
+    }
+    if(this.name1==''){
+    alert('please enter name');
+    return;
+    }
+    if(
+      this.email1==''){
+      alert('please enter email');
+      return;
+      }
+      if(this.messege1==''){
+        alert('please enter messege');
+        return;
+        }
+
     console.log(data);
-    const docRef=collection(this.fire,"contactdata")
+    const docRef=collection(this.fire,"formdata")
     this.ob.insertData(docRef,data)
     this.package='';
     this.name1='';
